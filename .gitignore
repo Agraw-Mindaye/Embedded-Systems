@@ -2,3 +2,4 @@
 .DS_Store        # Ignore macOS system files
 *.log            # Ignore log files
 
+*/.DS_Store
