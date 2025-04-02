@@ -2,11 +2,6 @@
 
 Welcome to my **Embedded Projects** repository! 🚀  
 
-## 📖 Embedded Systems Overview  
-Embedded systems are specialized computing systems designed to perform dedicated functions within larger systems. These systems typically involve microcontrollers, sensors, actuators, and efficient software written in C or C++. This repository contains hands-on embedded projects, demonstrating various concepts like digital and analog inputs, PWM control, and communication protocols.  
-
----
-
 ## 📌 Features  
 - 🛠️ Hands-on embedded systems projects  
 - 📜 Well-documented code and explanations  
@@ -26,13 +21,53 @@ Embedded systems are specialized computing systems designed to perform dedicated
 ### 1️⃣ Blinking LED  
 🔹 A simple circuit where an LED lights up with a set interval.  
 
+---
+
 ### 2️⃣ Button-Activated LED  
 🔹 A simple circuit where an LED lights up when a button is pressed.  
 🔹 Demonstrates **digital input handling** and basic microcontroller interfacing.  
 
+---
+
 ### 3️⃣ Potentiometer-Controlled LED  
 🔹 Adjust LED brightness using an **analog potentiometer**.  
 🔹 Introduces **analog input** and **PWM (Pulse Width Modulation)**.  
+
+---
+
+### 4️⃣ Serial Communication Test  
+🔹 Sends data over the serial monitor using `Serial.print()` and reads analog or digital values.  
+🔹 Useful for debugging and sensor feedback.  
+🔹 Introduces **UART communication** and basic serial protocols.
+
+---
+
+### 5️⃣ Timer & Interrupt Demo  
+🔹 Uses `millis()` to toggle an LED at regular intervals without blocking other code.  
+🔹 Implements **interrupts** via `attachInterrupt()` to respond to button presses.  
+🔹 Demonstrates concepts like **non-blocking timing**, **interrupt service routines (ISRs)**, and **volatile variables**.
+
+---
+
+### 💡 **Interactive LED Control Panel** (Phase 1 Project) 🚀  
+> 🔁 Multi-mode LED control panel using analog input, button interrupts, PWM, and serial output.
+
+🔸 Features:
+- Interrupt-driven button switches between modes  
+- Potentiometer adjusts behavior based on current mode  
+- Red channel of RGB LED used for output  
+- Clean serial monitor logging  
+- Non-blocking code using `millis()`
+
+🔸 Modes:
+- **Mode 0** – Blink speed control  
+- **Mode 1** – Brightness control  
+- **Mode 2** – Red color intensity
+
+📄 [View Project README](./Interactive_Control_Panel/README.md)
+
+---
+
 
 🛠️ More projects coming soon!  
 
