@@ -25,7 +25,7 @@ Welcome to my **Embedded Projects** repository!
 
 ### 2️⃣ Button-Activated LED  
 🔹 A simple circuit where an LED lights up when a button is pressed.  
-🔹 Demonstrates **digital input handling** and basic microcontroller interfacing.  
+🔹 Demonstrates **digital input** handling and basic microcontroller interfacing.  
 
 ---
 
@@ -45,7 +45,7 @@ Welcome to my **Embedded Projects** repository!
 ### 5️⃣ Timer & Interrupt Demo  
 🔹 Uses `millis()` to toggle an LED at regular intervals without blocking other code.  
 🔹 Implements **interrupts** via `attachInterrupt()` to respond to button presses.  
-🔹 Demonstrates concepts like **non-blocking timing**, **interrupt service routines (ISRs)**, and **volatile variables**.
+🔹 Demonstrates concepts like **non-blocking timing** and **interrupt service routine (ISR)**.
 
 ---
 
