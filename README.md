@@ -1,6 +1,6 @@
 # Embedded Projects  
 
-Welcome to my **Embedded Projects** repository! 🚀  
+Welcome to my **Embedded Projects** repository!  
 
 ## 📌 Features  
 - 🛠️ Hands-on embedded systems projects  
@@ -49,22 +49,18 @@ Welcome to my **Embedded Projects** repository! 🚀
 
 ---
 
-### 💡 **Interactive LED Control Panel** (Phase 1 Project) 🚀  
+### 💡 **Interactive LED Control Panel** (Milestone Project)  
 > 🔁 Multi-mode LED control panel using analog input, button interrupts, PWM, and serial output.
 
 🔸 Features:
 - Interrupt-driven button switches between modes  
 - Potentiometer adjusts behavior based on current mode  
 - Red channel of RGB LED used for output  
-- Clean serial monitor logging  
-- Non-blocking code using `millis()`
 
 🔸 Modes:
 - **Mode 0** – Blink speed control  
 - **Mode 1** – Brightness control  
 - **Mode 2** – Red color intensity
-
-📄 [View Project README](./Interactive_Control_Panel/README.md)
 
 ---
 
