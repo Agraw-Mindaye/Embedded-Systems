@@ -12,8 +12,8 @@ Welcome to my **Embedded Projects** repository!
 
 ## 🛠️ Technologies & Components Used  
 - **Languages:** C, C++  
-- **Hardware:** Keyestudio Mega 2560, LEDs, push buttons, potentiometers, resistors, breadboard, jumper wires  
-- **Tools:** Arduino CLI, markdown notes for documentation  
+- **Hardware:** Keyestudio Mega 2560, ESP32-WROVER, LEDs, push buttons, potentiometers, etc.
+- **Tools:** Arduino IDE/CLI, markdown notes for documentation  
 
 ---
 
