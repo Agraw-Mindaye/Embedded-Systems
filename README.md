@@ -64,7 +64,5 @@ Welcome to my **Embedded Projects** repository!
 
 ---
 
-
-🛠️ More projects coming soon!  
-
----
+### **All Modules and Projects moving forward will use an ESP32-WROVER!**  
+🛠️ More projects coming soon! 
