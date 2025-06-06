@@ -19,38 +19,37 @@ Welcome to my **Embedded Projects** repository!
 
 ## 🔧 Current Projects  
 ### 1️⃣ Blinking LED  
-🔹 A simple circuit where an LED lights up with a set interval.  
+- A simple circuit where an LED lights up with a set interval.  
 
 ---
 
 ### 2️⃣ Button-Activated LED  
-🔹 A simple circuit where an LED lights up when a button is pressed.  
+- A simple circuit where an LED lights up when a button is pressed.  
 🔹 Demonstrates **digital input** handling and basic microcontroller interfacing.  
 
 ---
 
 ### 3️⃣ Potentiometer-Controlled LED  
-🔹 Adjust LED brightness using an **analog potentiometer**.  
+- Adjust LED brightness using an **analog potentiometer**.  
 🔹 Introduces **analog input** and **PWM (Pulse Width Modulation)**.  
 
 ---
 
 ### 4️⃣ Serial Communication Test  
-🔹 Sends data over the serial monitor using `Serial.print()` and reads analog or digital values.  
-🔹 Useful for debugging and sensor feedback.  
-🔹 Introduces **UART communication** and basic serial protocols.
+- Send data over the serial monitor using `Serial.print()` and read analog or digital values.  
+🔹 Useful for debugging and sensor feedback and introduces **UART communication** and basic serial protocols.
 
 ---
 
 ### 5️⃣ Timer & Interrupt Demo  
-🔹 Uses `millis()` to toggle an LED at regular intervals without blocking other code.  
+- Use `millis()` to toggle an LED at regular intervals without blocking other code.  
 🔹 Implements **interrupts** via `attachInterrupt()` to respond to button presses.  
 🔹 Demonstrates concepts like **non-blocking timing** and **interrupt service routine (ISR)**.
 
 ---
 
 ### 💡 **Interactive LED Control Panel** (Milestone Project)  
-> 🔁 Multi-mode LED control panel using analog input, button interrupts, PWM, and serial output.
+- A multi-mode LED control panel using analog input, button interrupts, PWM, and serial output.
 
 🔸 Features:
 - Interrupt-driven button switches between modes  
