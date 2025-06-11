@@ -11,11 +11,14 @@ A simple menu interface using an ESP32, a 16x2 I²C LCD, push buttons, and a pot
 - Breadboard & Jumper Wires
 - USB cable for power
 
-
 ## Visuals
 
-[Circuit Visual] 
-## to be added
+### Circuitry
+![View Circuit](./LCD_MenuDisplay.jpg)
+
+### Live Demo
+
+[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-YouTube-red?logo=youtube&style=for-the-badge)](https://www.youtube.com/watch?v=YA6rCyH0dgw&ab_channel=Agraw)
 
 ## Code Sample
 
