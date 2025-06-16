@@ -23,6 +23,7 @@ Welcome to my **Embedded Projects** repository!
 - [**Potentiometer-Controlled LED**](Modules/Analog_Inputs) – Analog input, PWM  
 - [**Serial Communication**](Modules/Serial_Communication/Serial_Control_LED) – Debugging via UART  
 - [**Timer & Interrupts**](Modules/Timers_And_Interrupts) – Non-blocking logic, ISRs  
+- [**Display Modules**](Modules/Displays) – Writing to LCD, menu navigation 
 
 ---
 
@@ -32,6 +33,12 @@ Multimode RGB LED interface:
 - Potentiometer adjusts values  
 - Serial output reflects current state  
 
+## Milestone 2: [Smart Environment Dashboard](Milestone2_Smart_Environment_Dashboard)  
+Temperature and Humidity Logger:
+- DHT11 reads temperarure and humidity
+- SD card stores readings into log file
+- 16x2 I2C LCD displays logs
+- Buttons navigate through entries 
 ---
 
 More projects coming soon!
