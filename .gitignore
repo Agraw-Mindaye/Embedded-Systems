@@ -1,5 +1,6 @@
-.obsidian/       # Exclude Obsidian settings folder
-.DS_Store        # Ignore macOS system files
-*.log            # Ignore log files
-.vscode/         # VS Code settings
+.vscode/
 .DS_Store
+*.log
+*.swp
+*.tmp
+*.bak
