@@ -1,44 +1,57 @@
-# Embedded Projects  
+# Embedded Systems
 
-Welcome to my **Embedded Projects** repository!  
+Welcome to my Embedded Systems repository!
+
+This repository contains a showcase of my journey in embedded systems engineering. 
+It combines self-chosen projects along with advanced coursework from the **PyjamaBrah Library** course.
 
 ## Features  
-- Hands-on embedded systems projects  
-- Well-documented code and explanations
-- Compatible with **Keyestudio Mega 2560** and **ESP32-WROVER**  
+- Hands-on embedded systems projects 
+- Compatible with **Keyestudio Mega 2560** and **ESP32-WROVER**
+- Clean and well-documented code with explanations
 
----
+## Technologies & Tools  
+- **Languages:** C, C++
+- **Hardware:** Keyestudio Mega 2560, ESP32, LEDs, push buttons, potentiometers, DHT11 sensors, displays
+- **Development Tools:** Arduino CLI, PlatformIO, QEMU, GDB, Git, markdown for notes
 
-## Technologies & Components Used  
-- **Languages:** C, C++  
-- **Hardware:** Keyestudio Mega 2560, ESP32-WROVER, LEDs, push buttons, potentiometers, jumper cables, etc  
-- **Tools:** Arduino CLI, PlatformIO, markdown notes for documentation  
+## Structure
 
----
+### Phase 1: Basics
+- Digital I/O handling
+- Serial communication
+- Analog inputs, PWM, basic timers
+- Breadboard wiring and LED/button logic
+
+### Phase 2: Peripherals
+- LCD and OLED displays
+- I2C and SPI device communication
+- SD card data logging
+- Sensor integrations
+
+### PyjamaBrah *'Library'* Coursework
+- Content soon to added ...
 
 ## Completed Mini Projects
 
-- [**Blinking LED**](Modules/Digital_Outputs/Blink_LED) – Simple digital output  
-- [**Button-Activated LED**](Modules/Digital_Inputs/Button_LED) – Digital input with button and LED
-- [**Potentiometer-Controlled LED**](Modules/Analog_Inputs) – Analog input, PWM  
-- [**Serial Communication**](Modules/Serial_Communication/Serial_Control_LED) – Debugging via UART  
-- [**Timer & Interrupts**](Modules/Timers_And_Interrupts) – Non-blocking logic, ISRs  
-- [**Display Modules**](Modules/Displays) – Writing to LCD, menu navigation 
+- [**Blinking LED**](Phase1_Basics/Digital_Outputs/Blink_LED) - Simple digital output using GPIO
+- [**Button-Activated LED**](Phase1_Basics/Digital_Inputs/Button_LED) – Digital input with push-button and LED
+- [**Potentiometer-Controlled LED**](Phase1_Basics/Analog_Inputs/Potentiometer_LED_Bar_Graph) – Analog input and PWM  
+- [**Serial Communication**](Phase1_Basics/Serial_Communication/Serial_Control_LED) – Debugging via UART  
+- [**Timer & Interrupts**](Phase1_Basics/Timers_And_Interrupts/Button_Interrupt_LED) – Non-blocking logic and ISRs
+- [**Sensor Input**](Phase2_Peripherals/Sensor_Input/Temperature_ControlPanel_Monitor) – Writing to LCD and menu navigation 
+- [**Actuators And Motors**](Phase2_Peripherals/Actuators_And_Motors/ServoMotor) – Temperature and humidity reading with DHT11
+- [**Display Modules**](Phase2_Peripherals/Displays/LCD_Button_And_Potentiometer) – Writing to LCD and menu navigation 
 
----
+## Projects
 
-## Milestone 1: [Interactive LED Control Panel](Milestone1_InteractiveControlPanel)  
-Multimode RGB LED interface:
-- Button switches modes  
-- Potentiometer adjusts values  
-- Serial output reflects current state  
-
-## Milestone 2: [Smart Environment Dashboard](Milestone2_Smart_Environment_Dashboard)  
-Temperature and Humidity Logger:
-- DHT11 reads temperarure and humidity
+### [Smart Environment Dashboard](Projects/Smart_Environment_Dashboard/) 
+- DHT11 reads temperature and humidity
 - SD card stores readings into log file
 - 16x2 I2C LCD displays logs
 - Buttons navigate through entries 
----
 
-More projects coming soon!
+### [Interactive LED Control Panel](Projects/Interactive_Control_Panel/) 
+- Button switches modes  
+- Potentiometer adjusts values  
+- Serial output reflects current state  
