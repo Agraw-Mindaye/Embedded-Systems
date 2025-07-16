@@ -2,35 +2,42 @@
 
 Welcome to my Embedded Systems repository!
 
-This repository contains a showcase of my journey in embedded systems engineering. 
-It combines self-chosen projects along with advanced coursework from the **PyjamaBrah Library** course.
+This repository contains a showcase of my journey in embedded systems engineering. It combines self-guided exercises, experiments, and coursework from the  [**PyjamaBrah Library**](https://pyjamabrah.com/library/) course.
 
 ## Features  
+
 - Hands-on embedded systems projects 
 - Compatible with **Keyestudio Mega 2560** and **ESP32-WROVER**
 - Clean and well-documented code with explanations
 
 ## Technologies & Tools  
+
 - **Languages:** C, C++
 - **Hardware:** Keyestudio Mega 2560, ESP32, LEDs, push buttons, potentiometers, DHT11 sensors, displays
 - **Development Tools:** Arduino CLI, PlatformIO, QEMU, GDB, Git, markdown for notes
 
 ## Structure
 
-### Phase 1: Basics
-- Digital I/O handling
-- Serial communication
-- Analog inputs, PWM, basic timers
-- Breadboard wiring and LED/button logic
+### Phase 1: Basic Fundamentals
 
-### Phase 2: Peripherals
-- LCD and OLED displays
-- I2C and SPI device communication
+- Digital I/O (LEDs, buttons)
+- Serial communication (UART)
+- Analog inputs & PWM (potentiometer, LED brightness)
+- Timers and Interrupts
+- Breadboard circuits & pin logic
+
+### Phase 2: Peripherals & Interfaces
+
+- LCD & OLED display modules
+- I2C / SPI communication
 - SD card data logging
-- Sensor integrations
+- Sensor input (e.g., DHT11, analog sensors)
+- Servo and motor control
 
-### PyjamaBrah *'Library'* Coursework
-- Content soon to added ...
+### PyjamaBrah Embedded Course (*in progress*)
+
+- The C Language
+  - Functions, Structs, Pointers
 
 ## Completed Mini Projects
 
@@ -42,16 +49,3 @@ It combines self-chosen projects along with advanced coursework from the **Pyjam
 - [**Sensor Input**](Phase2_Peripherals/Sensor_Input/Temperature_ControlPanel_Monitor) – Writing to LCD and menu navigation 
 - [**Actuators And Motors**](Phase2_Peripherals/Actuators_And_Motors/ServoMotor) – Temperature and humidity reading with DHT11
 - [**Display Modules**](Phase2_Peripherals/Displays/LCD_Button_And_Potentiometer) – Writing to LCD and menu navigation 
-
-## Projects
-
-### [Smart Environment Dashboard](Projects/Smart_Environment_Dashboard/) 
-- DHT11 reads temperature and humidity
-- SD card stores readings into log file
-- 16x2 I2C LCD displays logs
-- Buttons navigate through entries 
-
-### [Interactive LED Control Panel](Projects/Interactive_Control_Panel/) 
-- Button switches modes  
-- Potentiometer adjusts values  
-- Serial output reflects current state  
