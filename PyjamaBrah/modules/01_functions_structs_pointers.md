@@ -64,14 +64,3 @@ File *file = fopen("red-square.bmp", "wb");
 
 - `file` is a pointer to a `FILE` object
 - The star `*` indicates that the variable `file` holds a memory address
-
-
-# Program 
-- The source code for this module is in the `code/` directory: [Source Code](./code/)
-
-- The program creates a 24x24 pixel `BMP` file that represents the color red
-  - A `BMP `file contains information on how to paint each individual pixel
-  - Each pixel is represented by 3 values of RGB (Red, Green, Blue)
-  - Altering these values chnages the color of the square
-  - Somewhere on the `disk`, the file (e.g. 'red-square.bmp') is created containing this information
-    - To do this, we need reach out to the memory on the disk, which is where we use a `pointer`
