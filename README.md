@@ -5,21 +5,17 @@ Welcome to my Embedded Systems repository!
 This repository contains a showcase of my journey in embedded systems engineering. It combines self-guided exercises, experiments, and coursework from the  [**PyjamaBrah Library**](https://pyjamabrah.com/library/) course.
 
 ## Features  
-
 - Hands-on embedded systems projects 
-- Compatible with **Keyestudio Mega 2560** and **ESP32-WROVER**
+- Compatible with **Arduino** and **ESP32**
 - Clean and well-documented code with explanations
 
 ## Technologies & Tools  
-
 - **Languages:** C, C++
-- **Hardware:** Keyestudio Mega 2560, ESP32, LEDs, push buttons, potentiometers, DHT11 sensors, displays
+- **Hardware:** Arduino Mega 2560, ESP32-Wrover, LEDs, push buttons, potentiometers, DHT11 sensors, displays
 - **Development Tools:** Arduino CLI, PlatformIO, QEMU, GDB, Git, markdown for notes
 
 ## Structure
-
 ### Phase 1: Basic Fundamentals
-
 - Digital I/O (LEDs, buttons)
 - Serial communication (UART)
 - Analog inputs & PWM (potentiometer, LED brightness)
@@ -27,7 +23,6 @@ This repository contains a showcase of my journey in embedded systems engineerin
 - Breadboard circuits & pin logic
 
 ### Phase 2: Peripherals & Interfaces
-
 - LCD & OLED display modules
 - I2C / SPI communication
 - SD card data logging
@@ -36,11 +31,17 @@ This repository contains a showcase of my journey in embedded systems engineerin
 
 ### PyjamaBrah Embedded Course (*in progress*)
 
+#### [Modules](PyjamaBrah/modules)
 - The C Language
   - Functions, Structs, Pointers
+  - Mental Model of CPU and Memory
+  - C keywords
+
+#### [Projects](PyjamaBrah/projects)
+- Project 1: 
+
 
 ## Completed Mini Projects
-
 - [**Blinking LED**](Phase1_Basics/Digital_Outputs/Blink_LED) - Simple digital output using GPIO
 - [**Button-Activated LED**](Phase1_Basics/Digital_Inputs/Button_LED) – Digital input with push-button and LED
 - [**Potentiometer-Controlled LED**](Phase1_Basics/Analog_Inputs/Potentiometer_LED_Bar_Graph) – Analog input and PWM  
