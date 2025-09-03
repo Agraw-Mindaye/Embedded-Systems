@@ -48,5 +48,5 @@ This repository contains a showcase of my journey in embedded systems engineerin
 - [**Serial Communication**](Phase1_Basics/Serial_Communication/Serial_Control_LED) – Debugging via UART  
 - [**Timer & Interrupts**](Phase1_Basics/Timers_And_Interrupts/Button_Interrupt_LED) – Non-blocking logic and ISRs
 - [**Sensor Input**](Phase2_Peripherals/Sensor_Input/Temperature_ControlPanel_Monitor) – Writing to LCD and menu navigation 
-- [**Actuators And Motors**](Phase2_Peripherals/Actuators_And_Motors/ServoMotor) – Temperature and humidity reading with DHT11
+- [**Actuators And Motors**](Phase2_Peripherals/Actuators_And_Motors/ServoMotor) – Servo motor control with potentiometer input
 - [**Display Modules**](Phase2_Peripherals/Displays/LCD_Button_And_Potentiometer) – Writing to LCD and menu navigation 
