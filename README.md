@@ -1,45 +1,32 @@
 # Embedded Systems
 
-Welcome to my Embedded Systems repository!
-
-This repository contains a showcase of my journey in embedded systems engineering. It combines self-guided exercises, experiments, and coursework from the  [**PyjamaBrah Library**](https://pyjamabrah.com/library/) course.
+This repository is a portfolio showcasing my journey in embedded systems engineering.
+<br>
+It combines self-guided exercises and experiments, demonstrating my experience with microcontrollers, peripherals, sensors, and real-world integrations.
 
 ## Features  
 - Hands-on embedded systems projects 
 - Compatible with **Arduino** and **ESP32**
-- Clean and well-documented code with explanations
+- Clean code, modular architecture, documentation and reproducibility
 
 ## Technologies & Tools  
 - **Languages:** C, C++
 - **Hardware:** Arduino Mega 2560, ESP32-Wrover, LEDs, push buttons, potentiometers, DHT11 sensors, displays
-- **Development Tools:** Arduino CLI, PlatformIO, QEMU, GDB, Git, markdown for notes
+- **Development Tools:** Arduino CLI, PlatformIO, Git, markdown for notes
 
 ## Structure
-### Phase 1: Basic Fundamentals
-- Digital I/O (LEDs, buttons)
-- Serial communication (UART)
-- Analog inputs & PWM (potentiometer, LED brightness)
-- Timers and Interrupts
-- Breadboard circuits & pin logic
+### Phase 1: Fundamentals
+- Digital I/O (LEDs, buttons)  
+- Analog Input & PWM (potentiometer, LED brightness)  
+- Serial communication (UART)  
+- Timers & Interrupts 
 
 ### Phase 2: Peripherals & Interfaces
-- LCD & OLED display modules
-- I2C / SPI communication
-- SD card data logging
-- Sensor input (e.g., DHT11, analog sensors)
-- Servo and motor control
-
-### PyjamaBrah Embedded Course (*in progress*)
-
-#### [Modules](PyjamaBrah/modules)
-- The C Language
-  - Functions, Structs, Pointers
-  - Mental Model of CPU and Memory
-  - C keywords
-
-#### [Projects](PyjamaBrah/projects)
-- Project 1: 
-
+- Displays (LCD, OLED)  
+- Communication protocols (I²C / SPI)  
+- Sensor integration & data acquisition  
+- Actuator & motor control  
+- Data logging (SD card, file storage) 
 
 ## Completed Mini Projects
 - [**Blinking LED**](Phase1_Basics/Digital_Outputs/Blink_LED) - Simple digital output using GPIO
